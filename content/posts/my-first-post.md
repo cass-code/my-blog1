@@ -1,7 +1,7 @@
 ---
 title: 'My first post'
 date: '2021-08-15'
-author: "Cassie"
+author: 'Cassie'
 ---
 
 # Testing markdown
