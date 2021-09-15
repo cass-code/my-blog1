@@ -3,12 +3,11 @@ body {
 }
 
 h1 {
-  color: blue;
+  color: rgb(155, 155, 192);
   font-family: verdana;
-  font-size: 300%;
+  
 }
 p {
-  color: red;
+  color: rgb(27, 25, 25);
   font-family: verdana;
-  font-size: 160%;
 }
