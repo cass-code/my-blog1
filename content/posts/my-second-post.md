@@ -7,5 +7,5 @@ date: '2020-08-01'
 
 > "It is a truth universally ignored that people are people"
 
-Sadly
+Sadly I have acknowledged it
 
