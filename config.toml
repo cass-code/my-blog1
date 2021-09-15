@@ -1,0 +1,4 @@
+enableRobotsTXT = true 
+baseURL = 'http://pengelly.netlify.app/'
+languageCode = 'en-us'
+title = 'Cass Mess'
