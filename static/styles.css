@@ -1,3 +1,9 @@
 body {
-    background:rgb(208, 203, 212);
-  }
+  background-color: powderblue;
+}
+h1 {
+  color: rgb(154, 154, 196);
+}
+p {
+  color: pink;
+}

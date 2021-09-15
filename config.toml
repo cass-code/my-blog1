@@ -2,11 +2,3 @@ enableRobotsTXT = true
 baseURL = 'http://pengelly.netlify.app/'
 languageCode = 'en-us'
 title = 'Cass Mess'
-social:
-    #email: email@example.com
-    #facebook: full page or profile url in facebook
-    github: https://github.com/cass-code
-    #gitlab: full profile url in gitlab
-    #googleplus: full profile url in googleplus
-    instagram: https://www.instagram.com/cass.mess/
-    linkedin: https://www.linkedin.com/in/cassandra-pengelly/
