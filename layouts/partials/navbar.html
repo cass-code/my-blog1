@@ -19,10 +19,13 @@
       </div>
 
        <!-- Social Icons -->
-       <div class="navbar-end is-hidden-touch">
+       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            {{ partial "social_buttons_in_sidebar.html" . }} 
+            {{ range .Site.Params.social }}
+            <a class="button is-white" href="{{ .Permalink }}" target="_blank" rel="noopener">
+              {{ if .Identifier }}<i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>{{ end }}
+            </a>
             {{ end }}
           </div>
         </div>
