@@ -1,7 +1,19 @@
 @charset "utf-8";
 
 // Variable overrides come before you import Bulma
-$primary: #FFC0CB;
+$primary: #f6a28a;
+$secondary: #f4c45b;
+$neutral: #fbeae2;
+$blue: #e2f0f1;
+$pink: #fadcc2;
+$grey: #5b5b5b;
+$link: $blue;
+$info: $pink;
+$success: $primary;
+$warning: $secondary;
+$danger: $neutral;
+$dark: $grey-darker;
+$text: $grey-dark;
 $size-1: 2rem;
 
 // import Bulma
