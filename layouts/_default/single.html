@@ -4,10 +4,9 @@
     <h1 class="title">{{ .Title }}</h1>
     <h3 class="subtitle">
       <span class="tag is-primary">Author: {{ .Params.author }}</span>
-      <span class="tag is-secondary">{{ .ReadingTime }} Minutes</span>
-      <span class="tag is-blue">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <span class="tag is-link"> {{ .ReadingTime }} Minutes</span>
+      <span class="tag is-blue"> {{ .Date.Format "Jan 2, 2006" }}</span>
     </h3>
-    <h4>{{ .Params.author }} </h4>
 
     <article class="content">
       {{ .Content }}
