@@ -16,7 +16,11 @@
         <a class="navbar-item" href="/portfolio">
           Portfolio
         </a>
-        {{ partial "social_buttons_in_sidebar.html" . }}
+        <a class="navbar-item">
+          {{ range .Site.Params.social }}
+          {{ partial "social_buttons_in_sidebar.html" . }}
+        </a>
+        
       </div>
     </div>
   </nav>
