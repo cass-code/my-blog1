@@ -3,9 +3,9 @@
   <main class="container mb-6">
     <h1 class="title">{{ .Title }}</h1>
     <h3 class="subtitle">
-      <span class="tag is-primary">Author: {{ .Params.author }}</span>
       <span class="tag is-link"> {{ .ReadingTime }} Minutes</span>
       <span class="tag is-success"> {{ .Date.Format "Jan 2, 2006" }}</span>
+      <span class="tag is-info">{{ .WordCount }} Words</span>
     </h3>
 
     <article class="content">
