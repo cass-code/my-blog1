@@ -16,9 +16,9 @@
         <a class="navbar-item" href="/portfolio">
           Portfolio
         </a>
-        <a class="navbar-item">
-          {{ range .Site.Params.social }}
-          {{ partial "social_buttons_in_sidebar.html" . }}
+        <!-- Logo -->
+        <a class="navbar-item" href="{{ "/" | absLangURL }}">
+        <img class="lozad" loading="lazy" data-src="/assets/img/logos/logo.png" src="/assets/img/logos/logo.png" height="128" alt="{{ .Title }}">
         </a>
         
       </div>
