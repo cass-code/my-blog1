@@ -1,18 +1,17 @@
-<script defer src="/static/fontawesome/fontawesome-all.js"></script>
 <p class="social">
     {{ with .Site.Params.social.instagram }}
-    <a href="{{ . }}" title="" class="external instagram">
-      <i class="fa fa-instagram"></i>
+    <a href="{{ . }}" data-animate-hover="pulse">
+      <img alt="" src="fontawesome/instagram.svg">
     </a>
     {{end}}
     {{ with .Site.Params.social.linkedin }}
-    <a href="{{ . }}" data-animate-hover="pulse" class="external">
-      <i class="fa fa-linkedin"></i>
+    <a href="{{ . }}" data-animate-hover="pulse">
+      <img alt="" src="fontawesome/linkedin.svg">
     </a>
     {{end}}
     {{ with .Site.Params.social.github }}
-    <a href="{{ . }}" class="external">
-      <i class="fa fa-github"></i>
+    <a href="{{ . }}" data-animate-hover="pulse">
+      <img alt="" src="fontawesome/github.svg">
     </a>
     {{end}}
   </p>
