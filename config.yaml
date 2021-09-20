@@ -3,9 +3,18 @@ baseURL: http://pengelly.netlify.app/
 languageCode: en-us
 title: Cass Mess
 params: 
-  social:
-    github: https://github.com/cass-code
-    instagram: https://www.instagram.com/cass.mess/
-    linkedin: https://www.linkedin.com/in/cassandra-pengelly/
+ navlinks:
+    - home: yes
+      name: Home
+      url: /
+    - name: Portfolio
+      url: portfolio/
+    - name: Posts
+      url: posts/
+ social:
+      github: https://github.com/cass-code
+      linkedin: https://www.instagram.com/cass.mess/
+      instagram: https://www.instagram.com/cass.mess/
+
    
 

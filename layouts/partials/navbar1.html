@@ -1,0 +1,17 @@
+<nav class="navbar is-primary">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          {{ $.Site.Title }}
+        </a>
+        <ul class="navbar-item">
+            {{ range .Site.Params.navlinks }}
+              <li><a href="{{ absURL .url }}">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
+          {{ partial "social_buttons_in_sidebar.html" . }}
+      </div>
+    </div>
+    </nav>
+
+
